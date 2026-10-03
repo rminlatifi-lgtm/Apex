@@ -1,0 +1,51 @@
+:root {
+    /* ===== COLORS ===== */
+    --color-bg: #0a111e;
+    --color-white: #ffffff;
+    --color-blue: #0066ff;
+    --color-text: #080808;
+    --color-text-light: #ffffffa4;
+    --color-text-muted: #ffffff6c;
+    --color-border: #ffffff3d;
+    --color-border-light: rgba(255, 255, 255, 0.15);
+    --color-hover-border: #dddddd;
+    --color-backgrounds: #3a5a8a;
+    --color-footer: #070f1e;
+    /* ===== FONT ===== */
+    --font-main: Montserrat;
+
+
+    /* ===== BORDER RADIUS ===== */
+    --radius-sm: 4px;
+    --radius-md: 10px;
+    --radius-lg: 15px;
+    --radius-xl: 20px;
+    --radius-card: 25px;
+
+
+    /* ===== SPACING ===== */
+    --space-xs: 5px;
+    --space-sm: 10px;
+    --space-md: 20px;
+    --space-lg: 30px;
+    --space-xl: 50px;
+    --space-2xl: 100px;
+
+
+    /* ===== TRANSITION ===== */
+    --transition-fast: 0.3s ease;
+    --transition-normal: 0.5s ease;
+
+
+    /* ===== HEADER ===== */
+    --header-height: 85px;
+
+
+    /* ===== CONTAINER ===== */
+    --container-width: 80%;
+
+
+    /* ===== BUTTON ===== */
+    --button-height: 35px;
+    --button-border: 1px solid var(--color-blue);
+}

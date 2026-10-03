@@ -1,0 +1,425 @@
+@import url(./font.css);
+@import url(./root.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header {
+    background-color: var(--color-bg);
+    width: 100%;
+    height: 85px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    margin-left: 160px;
+}
+
+.nav-link {
+    display: flex;
+    list-style: none;
+    justify-content: left;
+    width: 50%;
+    height: 100%;
+    padding-top: 35px;
+    margin-left: 10px;
+}
+
+.nav-link-a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0px 20px 0px 20px;
+    transition: all 0.5s ease-out;
+}
+
+.nav-link-a:hover {
+    border-bottom: 2px solid #0066ff;
+}
+
+.BROWSE-CARS {
+    color: #080808;
+    display: flex;
+    width: 176px;
+    height: 35px;
+    justify-content: center;
+    border: 1px solid #0066ff;
+    align-items: center;
+    border-radius: 15px;
+    margin-left: 54px;
+}
+
+.BROWSE-CARS a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.Chevron-Right {
+    color: #fff;
+    width: 35px;
+    height: 35px;
+}
+
+.icon-header {
+    width: 100px;
+    height: auto;
+    display: flex;
+}
+
+.icon-header a {
+    padding: 10px;
+    display: flex;
+}
+
+.icon-header a img {
+    width: 35px;
+    height: 35px;
+}
+
+.main {
+    width: 100%;
+    position: relative;
+    background: linear-gradient(180deg, #0052cc 0%, #003a94 50%, #021438 100%);
+    height: auto;
+    padding-bottom: 60px;
+}
+
+.card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.image img {
+    width: 800px;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+}
+
+.title-car {
+    width: 800px;
+    height: 500px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(180deg, #101522 0%, #0c0f17 100%);
+}
+
+.title-car h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.2;
+}
+
+.title-car h2 span {
+    font-size: 15px;
+    color: #8fa0be;
+    font-weight: 500;
+}
+
+.price-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 12px 0 6px 0;
+}
+
+.price {
+    font-size: 22px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.badge-status {
+    background: rgba(34, 197, 94, 0.1);
+    color: #22c55e;
+    border: 1px solid rgba(34, 197, 94, 0.3);
+    font-size: 10px;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: 4px;
+}
+
+.description {
+    font-size: 12px;
+    line-height: 1.6;
+    color: #8c9cb6;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.gallery-cars {
+    width: 250px;
+    height: 150px;
+    border: 1px solid #1d2537;
+    border-radius: 6px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.gallery-cars img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.gallery-cars:hover {
+    border-color: #0066ff;
+}
+
+.box {
+    width: 1600px;
+    height: auto;
+    background-color: #0e121a;
+    border: 1px solid #19202f;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.title {
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.item {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #9cb0ce;
+    font-size: 13px;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+}
+
+.card-specs {
+    width: 1600px;
+    height: auto;
+    background: #0e121a;
+    border: 1px solid #19202f;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.card-title {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.specs-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.spec-item {
+    width: 23%;
+    height: 65px;
+    background: #090c12;
+    border: 1px solid #161c28;
+    border-radius: 6px;
+    padding: 10px 14px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+}
+
+.spec-label {
+    font-size: 10px;
+    color: #60708b;
+}
+
+.spec-value {
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: var(--color-footer);
+}
+
+.logo-footer-left {
+    width: 30%;
+    height: 300px;
+    display: flex;
+}
+
+.logo-footer {
+    display: flex;
+    position: relative;
+    width: 250px;
+    height: 100px;
+    left: 100px;
+    top: 50px;
+}
+
+.footer-left {
+    width: 30%;
+}
+
+.span-footer-left {
+    position: relative;
+    display: flex;
+    color: #080808;
+    left: 100px;
+    top: 50px;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+.icon-footer-left {
+    display: flex;
+    position: relative;
+    left: 100px;
+    top: 75px;
+    width: auto;
+    height: 150px;
+}
+
+.icon-footer-left a {
+    padding: 10px;
+}
+
+.icon-footer-left a img {
+    width: 30px;
+}
+
+.footer-divider {
+    width: 1px;
+    height: 200px;
+    background-color: #ffffff3d;
+    display: flex;
+    position: absolute;
+    left: 400px;
+}
+
+.footer-right {
+    position: relative;
+    width: 130%;
+    display: flex;
+    font-family: Montserrat;
+    left: 500px;
+    top: -200px;
+}
+
+.EXPLORE {
+    position: relative;
+    display: flex;
+    font-family: Montserrat;
+    left: -50px;
+}
+
+.EXPLORE, .SUPPORT, .QUICK {
+    list-style: none;
+}
+
+.EXPLORE ul li {
+    padding-top: 25px;
+}
+
+.EXPLORE a {
+    text-decoration: none;
+    color: #ffffff6c;
+}
+
+.EXPLORE span {
+    position: relative;
+    color: #fff;
+}
+
+.QUICK {
+    position: relative;
+    display: flex;
+    font-family: Montserrat;
+    left: 0px;
+    margin-left: 100px;
+}
+
+.QUICK ul li {
+    padding-top: 25px;
+}
+
+.QUICK a {
+    text-decoration: none;
+    color: #ffffff6c;
+}
+
+.QUICK span {
+    position: relative;
+    color: #fff;
+}
+
+.SUPPORT {
+    position: relative;
+    display: block;
+    font-family: Montserrat;
+    flex-direction: column;
+    left: 0px;
+    margin-left: 100px;
+}
+
+.SUPPORT ul li, .QUICK ul li, .EXPLORE ul li {
+    list-style: none;
+}
+
+.SUPPORT ul li {
+    padding-top: 25px;
+}
+
+.SUPPORT a {
+    text-decoration: none;
+    color: #ffffff6c;
+}
+
+.SUPPORT span {
+    position: relative;
+    color: #fff;
+    left: -100px;
+}
+
+.SUPPORT span::after, .EXPLORE span::after, .QUICK span::after {
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 2px;
+    background-color: #0066ff;
+    left: 0px;
+    top: 25px;
+}
